@@ -1,0 +1,92 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.nav {
+  position: fixed;
+  min-width: 300px;
+  min-height: 100vh;
+}
+
+.nav h1 {
+  font-size: 24px;
+  margin: 32px 32px;
+}
+
+.nav span {
+  margin-right: 16px;
+}
+
+.nav .user {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav .user img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.nav .user span {
+  color: #6c757d;
+}
+
+.nav-link {
+  padding: 12px 32px;
+  position: relative;
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-link.active {
+  border-left: 4px solid #198754;
+  padding-left: 28px;
+  color: #198754;
+}
+
+.main {
+  margin-left: 300px;
+}
+
+.admin-page h3 {
+  display: inline-block;
+  margin: 32px;
+}
+
+.admin-page button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+.admin-page button span {
+  color: #198754;
+}
+
+.admin-page .table tr, .admin-page .table td {
+  height: 55px;
+  vertical-align: middle;
+}
+
+.admin-page .pagination {
+  margin-top: 64px;
+}
+
+.admin-page .pagination a {
+  color: #198754;
+}
+
+/*# sourceMappingURL=all.css.map */
